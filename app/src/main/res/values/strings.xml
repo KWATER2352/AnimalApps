@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AnimalApps</string>
+    <string name="lesson_complete">Lesson complete!</string>
+    <string name="combo_bonus">Combo bonus!</string>
+    <string name="woof_woof">Woof Woof</string>
+    <string name="you_reached_your_puppy_goals">You reached your puppy goals!</string>
+</resources>

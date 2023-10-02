@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/DailyGoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/you_reached_your_puppy_goals"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Yay"
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/lesson_complete"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@id/DailyGoal"
+        app:layout_constraintStart_toStartOf="@id/DailyGoal"
+        app:layout_constraintTop_toBottomOf="@id/DailyGoal" />
+
+    <TextView
+        android:id="@+id/Combo"
+        android:layout_width="280dp"
+        android:layout_height="20dp"
+        app:layout_constraintEnd_toEndOf="@id/Yay"
+        app:layout_constraintTop_toBottomOf="@id/Yay"
+        android:text="@string/combo_bonus"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="@id/Yay"
+        tools:layout_editor_absoluteY="414dp" />
+
+    <Button
+        android:id="@+id/ButtonUp"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="230dp"
+        android:backgroundTint="@color/DuoBlue"
+        android:text="@string/woof_woof"
+        android:textStyle="bold"
+        app:layout_constraintVertical_bias="0.505"
+        app:layout_constraintEnd_toEndOf="@id/Combo"
+        app:layout_constraintStart_toStartOf="@id/Combo"
+        app:layout_constraintTop_toBottomOf="@id/Combo" />
+
+    <ImageView
+        android:id="@+id/Chest"
+        android:layout_width="272dp"
+        android:layout_height="284dp"
+        app:layout_constraintBottom_toTopOf="@id/DailyGoal"
+        app:layout_constraintEnd_toEndOf="@id/DailyGoal"
+        app:layout_constraintStart_toStartOf="@id/DailyGoal"
+        app:srcCompat="@drawable/chestyay"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
