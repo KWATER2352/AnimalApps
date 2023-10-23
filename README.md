@@ -24,17 +24,6 @@ The following REQUIRED features are completed:
 - [x] Layout uses one (1) or more ImageView
 - [x] Layout uses three (3) or more TextViews
 
-The following STRETCH features are implemented:
-
-- [ ] Create a custom-shape Button using Shape Drawables
-- [ ] Customize the text fonts by creating new Font Resources
-- [ ] Add Tooltips to your Views to help users understand how to navigate the UI
-- [ ] Create a second layout, this time for an original, personal app idea
-
-The following EXTRA features are implemented:
-
-- [ ] List anything else that you added to improve the app!
-
 ## Chosen Screenshot
 
 I have chosen to duplicate the following layout from the Duolingo app:
@@ -54,13 +43,6 @@ GIF created with **ScreenToGif**
 - [ScreenToGif](https://www.screentogif.com/) for Windows
 - [peek](https://github.com/phw/peek) for Linux. -->
 
-## Original App Layout (Optional Stretch Feature)
-
-Here is my entry for the "Create a second layout, this time for an original, personal app idea" stretch feature:
-
-It is for an app that **brief description**.
-
-<img src='http://example.com/link/to/your/image.png' title='Chosen Screenshot' width='' alt='Chosen Screenshot' />
 
 ## Notes
 Got more comfortable using Constaint Layouts and creating Text views.
